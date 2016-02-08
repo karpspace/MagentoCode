@@ -1,0 +1,21 @@
+<resources>
+	<Amcs_Coupons_setup>
+		<setup>
+        		<module>Amcs_Coupons</module>
+        	      	<class>Mage_Customer_Model_Entity_Setup</class>
+            	</setup>
+		<connection>
+                	<use>core_setup</use>
+            	</connection>
+        </Amcs_Coupons_setup>
+	<Amcs_Coupons_write>
+        	<connection>
+        	       	<use>core_write</use>
+	        </connection>
+        </Amcs_Coupons_write>
+        <Amcs_Couponse_read>
+        	<connection>
+           		<use>core_read</use>
+            	</connection>
+       	</Amcs_Couponse_read>
+</resources>
